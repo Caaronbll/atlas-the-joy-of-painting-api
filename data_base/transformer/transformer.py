@@ -96,9 +96,9 @@ def createfile():
     
     with open('./data/new_data.csv', 'w') as new_file:
         writer = csv.writer(new_file)
-        writer.writerow(['painting_index', 'title', 'season', 'episode', 'img_src', 'num_of_colors', 'colors', 'hex_list','subject', 'yt_src', 'notes'])
+        writer.writerow(['painting_index', 'title', 'date', 'season', 'episode', 'img_src', 'num_of_colors', 'colors', 'hex_list','subject', 'yt_src', 'notes'])
         for i in range(len(painting_indexs)):
-            writer.writerow([painting_indexs[i], titles[i], seasons[i], episodes[i], img_srcs[i], num_of_colors[i], colors_list[i], hex_list[i], subject_lists[i], yt_srcs[i], notes[i]]) 
+            writer.writerow([painting_indexs[i], titles[i], dates[i], seasons[i], episodes[i], img_srcs[i], num_of_colors[i], colors_list[i], hex_list[i], subject_lists[i], yt_srcs[i], notes[i]]) 
             
 
 # calling functions with apropiate files
