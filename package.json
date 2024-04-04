@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Caaronbll/atlas-the-joy-of-painting-api#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
   }
 }
